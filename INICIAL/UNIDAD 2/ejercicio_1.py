@@ -6,7 +6,7 @@ import sys
 
 # Verifico que usuario/a haya pasado 3 argumentos
 
-if len(sys.argv) != 4:
+if len(sys.argv) != 3:
     print("⚠️ Algo salió mal. Tenés que pasar sólo tres parámetros. Volvé a intentarlo")
 else:
     # Paso los args a int
